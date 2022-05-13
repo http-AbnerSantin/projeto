@@ -1,12 +1,18 @@
 import React from "react";
 
 
-const Taks = (props) => {
-    console.log(props)
-    return <h1>LOLO</h1>
-
-
-
+const Tasks = ({Task}) => {
+    
+    return (
+        <>
+            <h1>teste</h1>
+              
+                 
+        
+        
+        
+        </>
+    )
 }
 
-export default Taks
+export default Tasks;
