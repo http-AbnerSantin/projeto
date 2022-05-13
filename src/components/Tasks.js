@@ -1,16 +1,13 @@
 import React from "react";
 
+import Task from "./Task";
 
-const Tasks = ({Task}) => {
+
+const Tasks = ({ tasks }) => {
     
-    return (
-        <>
-            <h1>teste</h1>
-              
-                 
-        
-        
-        
+    return (<>
+            {tasks.map((task) => (<Task task={task}/>))}   
+                     
         </>
     )
 }

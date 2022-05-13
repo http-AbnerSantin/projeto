@@ -6,7 +6,7 @@ import Tasks from './components/Tasks';
 
 
 function App() {
-  const [Task, setTask] = useState([
+  const [tasks, setTask] = useState([
     {
       id:1,
       title:'Ler livro',
@@ -22,13 +22,17 @@ function App() {
   ]);
   
 
+  
+    
+  
+
 
   return (
     <>
       <div className="App container">
         <h1>aaaa</h1>
         
-        <Tasks Task={Task} />
+        <Tasks tasks={tasks} />
         </div>
              
         

@@ -1,10 +1,9 @@
-import React from 'react';
+import React from "react";
+import Tasks from "./Tasks";
 
 const Task = () => {
-    return (
-        <>
-        </>
-    )
+    return (<h1>nao sei</h1>)
+        
 }
 
-export default Task
+export default Task;
