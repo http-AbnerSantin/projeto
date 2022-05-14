@@ -1,8 +1,9 @@
 .add-button {
     background-color: chartreuse;
+    
     height: 40px;
     padding: 0 10px;
-    border-radius: 5px;
+    border-radius:  5px;
     width: 100%;
     font-size: 1rem;
     color: #444;
@@ -10,5 +11,9 @@
     border: none;
     cursor: pointer;
 
+
+}
+.add-button:hover{
+    background: rgb(92, 184, 0);
 
 }
