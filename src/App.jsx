@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import '../src/App.css';
 
 import Tasks from './components/Tasks';
+import AddTask from './components/AddTask';
 
 
 function App() {
@@ -21,21 +22,13 @@ function App() {
 
   ]);
   
-
-  
-    
-  
-
-
   return (
     <>
       <div className="App container">
-        <h1>aaaa</h1>
-        
+        <AddTask />
         <Tasks tasks={tasks} />
-        </div>
-             
         
+      </div>        
     </>  
   );
 }
