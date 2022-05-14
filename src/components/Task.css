@@ -8,17 +8,21 @@
     color: white;
     align-items: center;
     cursor:pointer;
+    
 }
 
-.remove-task{
+.remove-task,
+.see-task-container{
     border: none;
     color: chartreuse;
     background-color: #555;
-    font-weight: bold;
     font-size: 1.2rem;
     cursor: pointer;
 
 }
 .remove-task:hover{
     color: rgb(92, 184, 0);
+}
+.title {
+    color: white;
 }
