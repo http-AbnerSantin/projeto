@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { v4 as uuid4 } from 'uuid';
 
 
+
 import '../src/App.css';
 import Tasks from './components/Tasks';
 import AddTask from './components/AddTask';
@@ -58,12 +59,13 @@ function App() {
   return (
     <>
       <div className="App container">
+
       <Header />          
         <AddTask handleTaskAddition={handleTaskAddition} />
         <Tasks tasks={tasks}
           handlesTaskClick={handlesTaskClick}
           handlesTaskRemove = {handlesTaskRemove}
-        />      
+        />   
       </div>        
     </>  
   );
