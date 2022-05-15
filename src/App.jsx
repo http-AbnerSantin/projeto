@@ -1,10 +1,12 @@
 
 import React, { useState } from 'react';
-import '../src/App.css';
 import { v4 as uuid4 } from 'uuid';
 
+
+import '../src/App.css';
 import Tasks from './components/Tasks';
 import AddTask from './components/AddTask';
+import Header from './components/Header';
 
 
 function App() {
@@ -51,21 +53,17 @@ function App() {
     }]
     setTask(newTask)
   }
-  
+
 
   return (
     <>
       <div className="App container">
-        <AddTask 
-          handleTaskAddition={handleTaskAddition}
-          
-        />
+      <Header />          
+        <AddTask handleTaskAddition={handleTaskAddition} />
         <Tasks tasks={tasks}
-        handlesTaskClick={handlesTaskClick}
-        handlesTaskRemove = {handlesTaskRemove}
-
-         />
-        
+          handlesTaskClick={handlesTaskClick}
+          handlesTaskRemove = {handlesTaskRemove}
+        />      
       </div>        
     </>  
   );
