@@ -1,3 +1,7 @@
+
+Esse é um projeto que estou desenvolvendo usando React.
+É um projeto mais para práticar e para eu me familiarizar com o React.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
